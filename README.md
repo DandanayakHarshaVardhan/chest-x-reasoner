@@ -5,9 +5,11 @@ Explainable AI system for chest X-ray analysis that combines:
 - Phi-3 Mini for clinical reasoning generation
 
 ## Project Structure
-- backend/ : Flask inference server
-- training/ : Data preprocessing and model training
-- frontend/ : Web interface (HTML/CSS/JS)
-
+- app.py : Flask application
+- index.html : Frontend UI
+- style.css : Frontend styling
+- training_densnet.ipynb : Model training
+- data_cleaning.ipynb : Data preprocessing
+- requirements.txt : Dependencies
 ## Disclaimer
 This project is for academic and educational purposes only and not for clinical use.
