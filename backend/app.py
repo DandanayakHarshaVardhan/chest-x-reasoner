@@ -1,5 +1,3 @@
-!pip install torch torchvision transformers flask flask-cors pyngrok pillow
-
 import torch
 import torch.nn as nn
 import torchvision.models as models
